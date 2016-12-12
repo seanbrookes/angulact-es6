@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html ng-app="Main" lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Angulact example using React/Angular 1.x/Webpack / es6</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <link rel="stylesheet" type="text/css" href="./style/style.css">
+</head>
+<body>
+<div class="AppContainer">
+  <sm-page-header></sm-page-header>
+  <div class="InnerAppContainer">
+    <div ui-view autoscroll="false" class="MainApp MainApp__Container">
+      <sm-home-content></sm-home-content>
+    </div>
+  </div>
+  <footer class="AppFooter">
+    <nav class="AppFooter__Nav">
+      <div class="Layout Spread">
+
+        <div>
+          <a class="AppFooter__NavLink" href="mailto:contact@greengrowtech.ca">Contact</a>
+        </div>
+
+      </div>
+      <p style="text-align:center;color:#989898;font-size:12px;">Copyright © 2016 <a href="//www.greengrowtech.ca" target="_new"  class="AppFooter__NavLink AppFooter__NavLink--Copyright">Green Grow Tech Ltd.</a></p>
+    </nav>
+  </footer>
+</div>
+<script src="bundle.js"></script>
+</body>
+</html>

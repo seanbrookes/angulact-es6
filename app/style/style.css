@@ -1,0 +1,84 @@
+/*
+http://www.w3schools.com/cssref/css_websafe_fonts.asp
+http://tawian.io/text-spinners/?utm_source=html5weekly&utm_medium=email
+https://gist.github.com/addyosmani/fd3999ea7fce242756b1?utm_source=html5weekly&utm_medium=email
+
+SPINNERS:
+http://tawian.io/text-spinners/?utm_source=html5weekly&utm_medium=email
+
+
+*/
+/* CSS */
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 16px;
+  width: 100%;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.MainApp__Container {
+  height: 100%;
+  flex: 1;
+}
+input,
+textarea,
+keygen,
+select,
+button {
+  font: inherit;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+button {
+  border: 1px solid #dddddd;
+  background: #efefef;
+  padding: .5rem;
+  border-radius: .2rem;
+}
+
+.Layout {
+  display: flex;
+  flex-direction: row;
+}
+.Column {
+  display: flex;
+  flex-direction: column;
+}
+.Center {
+  justify-content: center;
+}
+.CenterContent {
+  align-content: center;
+}
+.CenterItems {
+  align-items: center;
+}
+.FlexEnd {
+  justify-content: flex-end;
+}
+.Spread {
+  justify-content: space-between;
+}
+.Spaced {
+  justify-content: space-around;
+}
+.Flow {
+  flex-wrap: wrap;
+}
+
